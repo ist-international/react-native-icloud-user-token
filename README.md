@@ -15,3 +15,9 @@ var ICloudUserToken = require('react-native-icloud-user-token');
 ICloudUserToken.getToken(function (err, token) {
   console.log('Error:', err, '\niCloud Token:', token);
 });
+
+or
+
+ICloudUserToken.getTokenFromSuite('iCloud.com.some.container', function (err, token) {
+  console.log('Error:', err, '\niCloud Token:', token);
+});
