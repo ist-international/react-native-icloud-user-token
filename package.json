@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joshuakarjala/react-native-icloud-user-token.git"
+    "url": "git+https://github.com/mikaeladlers/react-native-icloud-user-token.git"
   },
   "keywords": [
     "react-native",
@@ -16,10 +16,11 @@
     "ios",
     "token"
   ],
-  "author": "Joshua Karjala-Svendsen <joshua@fluxuries.com> (http://twitter.com/joshuakarjala)",
+  "author": "Mikael Adlers <mikael.adlers@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joshuakarjala/react-native-icloud-user-token/issues"
+    "url": "https://github.com/mikaeladlers/react-native-icloud-user-token/issues"
   },
-  "homepage": "https://github.com/joshuakarjala/react-native-icloud-user-token#readme"
+  "homepage": "https://github.com/mikaeladlers/react-native-icloud-user-token#readme",
+  "nativePackage": true
 }
