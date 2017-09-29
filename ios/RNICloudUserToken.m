@@ -5,15 +5,9 @@
 //  Extended by mikaeladlers
 //
 
-#import <React/RCTBridge.h>
-#import <React/RCTEventDispatcher.h>
+#import "RNICloudUserToken.h"
 
 @import CloudKit;
-
-@interface RNICloudUserToken : NSObject <RCTBridgeModule>
-//@property (nonatomic, retain) NSMetadataQuery *query;
-
-@end
 
 @implementation RNICloudUserToken
 

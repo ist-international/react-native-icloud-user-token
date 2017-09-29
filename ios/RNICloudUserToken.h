@@ -1,11 +1,10 @@
 
 #if __has_include("RCTBridgeModule.h")
-#import "RCTBridgeModule.h"
-#import "RCTEventDispatcher.h"
+ #import "RCTBridgeModule.h"
+ #import "RCTEventDispatcher.h"
 #else
-//#import <React/RCTBridge.h>
-#import <React/RCTBridgeModule.h>
-#import <React/RCTEventDispatcher.h>
+ #import <React/RCTBridgeModule.h>
+ #import <React/RCTEventDispatcher.h>
 #endif
 
 @interface RNICloudUserToken : NSObject <RCTBridgeModule>
